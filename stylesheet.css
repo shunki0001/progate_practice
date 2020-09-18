@@ -1,0 +1,37 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    width: 1170px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.container h1 {
+    font-size: 45px;
+    font-weight: bold;
+
+}
